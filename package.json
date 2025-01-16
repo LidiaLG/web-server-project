@@ -1,0 +1,14 @@
+{
+  "name": "web-server-project",
+  "version": "0.0.1",
+  "description": "web-server proyect with nodejs",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Lidia LG",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
