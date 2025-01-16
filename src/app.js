@@ -1,1 +1,9 @@
-console.log('Hola mundo desde app.js')
+const main = () => {
+    console.log('Server')
+}
+
+
+//función agnóstica autoconvocada
+( async() => {
+    main()
+})()
