@@ -1,5 +1,7 @@
+const { envs } = require('./cofig/env')
+
 const main = () => {
-    console.log('Server')
+    console.log(envs)
 }
 
 
