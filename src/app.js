@@ -1,5 +1,5 @@
-const { envs } = require('./cofig/env')
-const { startServer } = require('./server/server')
+import { envs } from './cofig/env.js'
+import { startServer } from './server/server.js'
 
 const main = () => {
     startServer({
